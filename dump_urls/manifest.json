@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Save All Tabs",
+  "version": "1.0",
+  "description": "Save all incognito windows' tabs' URLs to a text file",
+  "permissions": ["tabs", "downloads"],
+  "action": {
+    "default_title": "Save all tab URLs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
